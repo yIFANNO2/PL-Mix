@@ -46,3 +46,9 @@ cd ..
 cd src
 python evaluation.py --comment COMMENTS --type png --list data/train.txt --predict_dir REFINED_CAM_DIR 
 cd ..
+
+### Statistical Significance
+```
+cd src
+python evaluation.py --comment COMMENTS --type png --list data/train.txt --predict_dir REFINED_CAM_DIR 
+cd ..
