@@ -45,27 +45,7 @@ bash run_infer.sh
 ```
 
 ## CAM refinement & Pseudo label generation
-### turn on flag ```--soft_output 1 ``` to store soft pseudo labels for BEACON training
-```
-python infer_irn.py --cam_dir CAM_DIR --sem_seg_out_dir OUTPUT_PSEUDO_LABEL_DIR --soft_output 0 --irn_weights_name PATH_TO_PRETRAINED_IRN_MODEL
-```
+Completing PLmix Training and Inference
+We have successfully integrated PLmix for training and inference by following these steps. For subsequent steps, including Stage 2 (Refine CAM) and Stage 3 (Segmentation Model Training), please refer to the [MuSCLe benchmark](https://github.com/SCoulY/MuSCLe?tab=readme-ov-file).
 
-## CAM quality evaluation
-### Raw CAM evaluation
-```
-cd src
-python evaluation.py --comment COMMENTS --type npy --list data/train.txt --predict_dir CAM_DIR --curve True
-cd ..
-```
-
-### Refined CAM evaluation
-```
-cd src
-python evaluation.py --comment COMMENTS --type png --list data/train.txt --predict_dir REFINED_CAM_DIR 
-cd ..
-
-### Statistical Significance
-```
-cd src
-python evaluation.py --comment COMMENTS --type png --list data/train.txt --predict_dir REFINED_CAM_DIR 
-cd ..
+We thank MuSCLe for providing the code and framework for these subsequent stages.
