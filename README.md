@@ -18,8 +18,15 @@ conda env create --name PLmix --file environment.yaml
 conda activate PLmix
 ```
 ## MCL training
+To train the model, please follow these steps:
+### Step 1: Modify run_train.sh
+Edit the run_train.sh script to set the appropriate local paths for your environment.
+### Step 2: Configure Hyperparameters
+You can use the provided hyperparameters or adjust them according to your needs
+### Step 3: Run the Training Script
+After modifying the script and configuring the hyperparameters, run the training script using the following command:
 ```
-python train_mcl.py --voc12_root data --train_list data/train_aug.txt --weights PATH_TO_TRAINED_MODEL --tblog_dir logs/tblog_mcl
+bash run_train.sh
 ```
 
 ## CAM generation
