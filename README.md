@@ -47,6 +47,6 @@ bash run_infer.sh
 ## CAM refinement & Pseudo label generation
 Completing PLmix Training and Inference
 
-We have successfully integrated PLmix for training and inference by following these steps. For subsequent steps, including Stage 2 (Refine CAM) and Stage 3 (Segmentation Model Training), please refer to the [MuSCLe benchmark](https://github.com/SCoulY/MuSCLe?tab=readme-ov-file).
+We have successfully enhanced the quality of CAMs in the benchmark using PLmix by following these steps. For subsequent steps, including Stage 2 (Refine CAM) and Stage 3 (Segmentation Model Training), please refer to the [MuSCLe benchmark](https://github.com/SCoulY/MuSCLe?tab=readme-ov-file).
 
 We thank MuSCLe for providing the code and framework for these subsequent stages.
