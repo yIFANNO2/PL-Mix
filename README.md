@@ -30,9 +30,18 @@ bash Run_train.sh
 ```
 
 ## CAM generation
-### specify dir ```--tblog XXX/tblog ``` to show raw CAM visualisation in tensorboard
+To generate CAM using the model, please follow these steps:
+
+### Step 1: Modify run_infer.sh
+Edit the run_infer.sh script to set the appropriate local paths for your environment.
+
+### Step 2: Configure Hyperparameters
+You can use the provided hyperparameters or adjust them according to your needs.
+
+### Step 3: Run the Inference Script
+After modifying the script and configuring the hyperparameters, run the inference script using the following command:
 ```
-python infer_mcl.py --voc12_root PATH_TO_VOC12 --infer_list PATH_TO_INFER_LIST --weights PATH_TO_TRAINED_MODEL --out_npy OUTPUT_DIR
+bash run_infer.sh
 ```
 
 ## CAM refinement & Pseudo label generation
