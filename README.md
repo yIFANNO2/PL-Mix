@@ -50,3 +50,6 @@ Completing PLmix Training and Inference
 We have successfully enhanced the quality of CAMs in the benchmark using PLmix by following these steps. For subsequent steps, including Stage 2 (Refine CAM) and Stage 3 (Segmentation Model Training), please refer to the [MuSCLe benchmark](https://github.com/SCoulY/MuSCLe?tab=readme-ov-file).
 
 We thank MuSCLe for providing the code and framework for these subsequent stages.
+
+## Significance Testing
+Additionally, you can perform significance testing on the segmentation PNG images of CAMs generated with and without PLmix using t_statistic.py.
