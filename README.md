@@ -13,8 +13,8 @@ The implementation of: Refining Pseudo-labels through Iterative Mix-Up for Weakl
 - install conda from [conda.io](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 - build cond env from file
 ```
-conda env create --name muscle --file environment.yaml
-conda activate muscle
+conda env create --name PLmix --file environment.yaml
+conda activate PLmix
 ```
 ## MCL training
 ```
