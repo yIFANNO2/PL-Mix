@@ -44,8 +44,7 @@ After modifying the script and configuring the hyperparameters, run the inferenc
 bash run_infer.sh
 ```
 
-## CAM refinement & Pseudo label generation
-Completing PLmix Training and Inference
+## CAM refinement & Segmentation Model Training
 
 We have successfully enhanced the quality of CAMs in the benchmark using PLmix by following these steps. For subsequent steps, including Stage 2 (Refine CAM) and Stage 3 (Segmentation Model Training), please refer to the [MuSCLe benchmark](https://github.com/SCoulY/MuSCLe?tab=readme-ov-file).
 
