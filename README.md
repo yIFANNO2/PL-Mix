@@ -26,7 +26,7 @@ You can use the provided hyperparameters or adjust them according to your needs
 ### Step 3: Run the Training Script
 After modifying the script and configuring the hyperparameters, run the training script using the following command:
 ```
-bash run_train.sh
+bash Run_train.sh
 ```
 
 ## CAM generation
