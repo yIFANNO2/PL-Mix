@@ -138,7 +138,7 @@ if __name__ == '__main__':
     parser.add_argument("--lr", default=3e-5, type=float)
     parser.add_argument("--num_workers", default=8, type=int)
     parser.add_argument("--wt_dec", default=1e-6, type=float) 
-    parser.add_argument("--train_list", default="voc12/train_aug.txt", type=str)
+    parser.add_argument("--train_list", default="data/train_aug.txt", type=str)
     parser.add_argument("--val_list", default="data/VOCdevkit/VOC2012/ImageSets/Segmentation/train.txt", type=str)
     parser.add_argument("--num_classes", default=21, type=int)
 
