@@ -3,7 +3,7 @@
 # Set default values for hyperparameters
 
 ablation_name="YourProjectName" # Name of your project
-batch_size=12 # Size of the training batch
+batch_size=4 # Size of the training batch
 max_epoches=30 # Maximum number of training epochs
 lr=3e-5 # Learning rate
 num_workers=8 # Number of workers for data loading
